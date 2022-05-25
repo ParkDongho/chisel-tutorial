@@ -39,15 +39,15 @@ This should already work. Try
 
     > test:runMain problems.Launcher Mux2
     
-Note that `Mux2` is defined in `Mux4.scala`.
+'Mux2'는 'Mux4.scala'에 정의되어 있습니다.
 
 #### Mux4
-You can instantiate a module with `val foo = Module(new Bar())`
+`val foo = Module(new Bar())`로 모듈을 인스턴스화할 수 있습니다.
 
     > test:runMain problems.Launcher Mux4
 
 #### Counter
-You can conditionally update a value without a mux by using `when (cond) { foo := bar }`
+`when (cond) { foo := bar }`를 사용하여 mux 없이 값을 조건부로 업데이트할 수 있습니다.
 
     > test:runMain problems.Launcher Counter
 
@@ -56,9 +56,7 @@ You can conditionally update a value without a mux by using `when (cond) { foo :
     > test:runMain problems.Launcher VendingMachine
 
 #### Memo
-The type of memory that's inferred is based on how you handle the read and
-write enables. This is pretty much the same as how Xilinx and Altera infer
-memories.
+유추되는 메모리 유형은 읽기 및 쓰기 활성화를 처리하는 방법을 기반으로 합니다. 이것은 Xilinx와 Altera가 메모리를 추론하는 방법과 거의 동일합니다.
 
     > test:runMain problems.Launcher Memo
 
@@ -71,32 +69,28 @@ memories.
     > test:runMain problems.Launcher RealGCD
 
 
-To check that all of your solutions are correct:
+모든 솔루션이 올바른지 확인하려면:
 
     $ ./run-problem.sh all
 
 
-To run all of our reference solutions:
+모든 참조 솔루션을 실행하려면:
 
     $ ./run-solution.sh all
 
-Note: ./run-problem.sh, ./run-solution.sh, ./run-examples.sh are convenience scripts to invoke tests
+참고: ./run-problem.sh, ./run-solution.sh, ./run-examples.sh는 테스트를 호출하는 편의 스크립트입니다.
 
 Learning More Chisel
 --------------------
-In addition to the problems and the solutions, we have also provided some
-examples of more complex circuits (`src/main/scala/examples`) and (`src/test/scala/examples`). You should take a 
-look at the source and test them out:
+문제와 솔루션 외에도 더 복잡한 회로(`src/main/scala/examples`) 및 (`src/test/scala/examples`)의 몇 가지 예도 제공했습니다. 소스를 살펴보고 테스트해야 합니다.
 
     $ ./run-examples.sh all
 
-The [wiki](https://github.com/ucb-bar/chisel-tutorial/wiki/) attached to this repo contains more information on working with Chisel.
-Additional documentation may be found on the chisel3 repo
-[wiki](https://github.com/ucb-bar/chisel3/wiki/)
-and the
-[documentation](https://chisel.eecs.berkeley.edu/documentation.html)
-section of the [website](https://chisel.eecs.berkeley.edu/).
+이 저장소에 첨부된 [wiki](https://github.com/ucb-bar/chisel-tutorial/wiki/)에는 Chisel 작업에 대한 자세한 정보가 포함되어 있습니다.
+추가 문서는 chisel3 repo에서 찾을 수 있습니다.
+[위키](https://github.com/ucb-bar/chisel3/wiki/)
+및 [웹사이트](https://chisel.eecs.berkeley.edu/)의 [문서](https://chisel.eecs.berkeley.edu/documentation.html) 섹션.
 
 Fixes/Updates
 -------------
-If you wish to submit pull requests for changes to this repo, plus check out the master branch, and make your pull requests against that branch.
+이 리포지토리에 대한 변경 사항에 대한 풀 리퀘스트를 제출하고 마스터 브랜치를 확인하고 해당 브랜치에 대해 풀 리퀘스트를 수행하십시오.

@@ -3,9 +3,7 @@ Chisel Tutorials (Release branch)
 
 These are the tutorials for [Chisel](https://github.com/ucb-bar/chisel3).
 
-Chisel is an open-source hardware construction language developed
-at UC Berkeley that supports advanced hardware design using highly
-parameterized generators and layered domain-specific hardware languages.
+Chisel은 고도로 매개변수화된 생성기와 계층화된 도메인별 하드웨어 언어를 사용하여 고급 하드웨어 설계를 지원하는 UC Berkeley에서 개발된 오픈 소스 하드웨어 구성 언어입니다.
 
 
 Getting the Repo
@@ -21,17 +19,11 @@ Executing Chisel
 ----------------
 
 ####Testing Your System
-First make sure that you have sbt (the scala build tool) installed. See details
-in [sbt](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html).
+먼저 sbt(스칼라 빌드 도구)가 설치되어 있는지 확인하십시오. [sbt](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html)에서 자세한 내용을 참조하십시오. 
 
     $ sbt run
 
-This will generate and test a simple block (`Hello`) that always outputs the
-number 42 (aka 0x2a). You should see `[success]` on the last line of output (from sbt) and
-`PASSED` on the line before indicating the block passed the testcase. If you
-are doing this for the first time, sbt will automatically download the
-appropriate versions of Chisel3, the Chisel Testers harness
-and Scala and cache them (usually in `~/.ivy2`).
+이것은 항상 숫자 42(일명 0x2a)를 출력하는 간단한 블록(`Hello`)을 생성하고 테스트합니다. 블록이 테스트 케이스를 통과했음을 나타내기 전에 출력의 마지막 라인(sbt에서)에 `[success]`가 표시되고 라인에 `PASSED`가 표시되어야 합니다. 처음으로 이 작업을 수행하는 경우 sbt는 적절한 버전의 Chisel3, Chisel Testers harness 및 Scala를 자동으로 다운로드하고 캐시합니다(보통 `~/.ivy2`에 있음).
 
 Completing the Tutorials
 ------------------------

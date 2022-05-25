@@ -1,7 +1,7 @@
 Chisel Tutorials (Release branch)
 ================
 
-These are the tutorials for [Chisel](https://github.com/ucb-bar/chisel3).
+[Chisel](https://github.com/ucb-bar/chisel3)에 대한 튜토리얼입니다.
 
 Chisel은 고도로 매개변수화된 생성기와 계층화된 도메인별 하드웨어 언어를 사용하여 고급 하드웨어 설계를 지원하는 UC Berkeley에서 개발된 오픈 소스 하드웨어 구성 언어입니다.
 
@@ -28,7 +28,7 @@ Executing Chisel
 Completing the Tutorials
 ------------------------
 
-치즐을 배우려면 예제를 통해 배우고 시도해 보는 것이 좋습니다. 이를 돕기 위해 회로(`src/main/scala/problems`) 및 관련 test_harnesses(`src/test/scala/problems`)를 사용하여 기능과 간단한 테스트 사례를 완료할 위치를 명확하게 표시한 연습을 만들었습니다. (`src/main/scala/solutions`) 및 (`src/test/scala/solutions`)에서 샘플 솔루션과 작업을 비교할 수 있습니다. 이 계층적 구성과 회로와 테스트의 분리는 좋은 관행이며 이해하고 미래에 사용하는 것이 좋습니다. 일반적으로 문제에 대해 작업할 때 두 개의 열린 편집기 창(`vi, emacs, IDE 등`)이 하나는 회로를 편집하고 다른 하나는 테스트를 편집하기 위한 것입니다.
+Chisel을 배우려면 예제를 통해 배우고 시도해 보는 것이 좋습니다. 이를 돕기 위해 회로(`src/main/scala/problems`) 및 관련 test_harnesses(`src/test/scala/problems`)를 사용하여 기능과 간단한 테스트 사례를 완료할 위치를 명확하게 표시한 연습을 만들었습니다. (`src/main/scala/solutions`) 및 (`src/test/scala/solutions`)에서 샘플 솔루션과 작업을 비교할 수 있습니다. 이 계층적 구성과 회로와 테스트의 분리는 좋은 관행이며 이해하고 미래에 사용하는 것이 좋습니다. 일반적으로 문제에 대해 작업할 때 두 개의 열린 편집기 창(`vi, emacs, IDE 등`)이 하나는 회로를 편집하고 다른 하나는 테스트를 편집하기 위한 것입니다.
 
 속도를 높이기 위해 sbt를 계속 실행합니다. 시작하려면:
 

@@ -18,7 +18,7 @@ Getting the Repo
 Executing Chisel
 ----------------
 
-####Testing Your System
+#### Testing Your System
 먼저 sbt(스칼라 빌드 도구)가 설치되어 있는지 확인하십시오. [sbt](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html)에서 자세한 내용을 참조하십시오. 
 
     $ sbt run

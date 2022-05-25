@@ -28,16 +28,9 @@ Executing Chisel
 Completing the Tutorials
 ------------------------
 
-To learn Chisel, we recommend learning by example and just trying things out.
-To help with this, we have produced exercises with circuits (`src/main/scala/problems`) and their
- associated test harnesses (`src/test/scala/problems`) which have clearly
-marked places to complete their functionality and simple test cases. You can
-compare your work with our sample solutions in (`src/main/scala/solutions`) and (`src/test/scala/solutions`).  This 
-hierarchical organization and separation of circuits and tests is a good practice and we encourage you to understand it
-and use it in the future.  Typically when you work on a problem you will have two open editor windows (vi, emacs, IDE, 
-etc) one to edit the circuit and the other to edit the tests.
+치즐을 배우려면 예제를 통해 배우고 시도해 보는 것이 좋습니다. 이를 돕기 위해 회로(`src/main/scala/problems`) 및 관련 test_harnesses(`src/test/scala/problems`)를 사용하여 기능과 간단한 테스트 사례를 완료할 위치를 명확하게 표시한 연습을 만들었습니다. (`src/main/scala/solutions`) 및 (`src/test/scala/solutions`)에서 샘플 솔루션과 작업을 비교할 수 있습니다. 이 계층적 구성과 회로와 테스트의 분리는 좋은 관행이며 이해하고 미래에 사용하는 것이 좋습니다. 일반적으로 문제에 대해 작업할 때 두 개의 열린 편집기 창(`vi, emacs, IDE 등`)이 하나는 회로를 편집하고 다른 하나는 테스트를 편집하기 위한 것입니다.
 
-To speed things up, we will keep sbt running. To get started:
+속도를 높이기 위해 sbt를 계속 실행합니다. 시작하려면:
 
     $ sbt
 

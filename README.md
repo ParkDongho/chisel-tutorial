@@ -39,7 +39,7 @@ This should already work. Try
 
     > test:runMain problems.Launcher Mux2
     
-'Mux2'는 'Mux4.scala'에 정의되어 있습니다.
+`Mux2`는 `Mux4.scala`에 정의되어 있습니다.
 
 #### Mux4
 `val foo = Module(new Bar())`로 모듈을 인스턴스화할 수 있습니다.
